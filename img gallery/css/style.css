@@ -1,9 +1,9 @@
 .gallery {  
-	background-color: #dbddf1;  
+	background: linear-gradient(to bottom, #190e14, #0d0d4b 30%, #c76075 80%, #e9b64b 95%);
 	padding: 80px 0;  
 	position: relative;  
   }  
-	
+  
   .photo-container {  
 	display: flex;  
 	flex-wrap: wrap;  
@@ -12,7 +12,7 @@
 	max-width: 900px;  
 	perspective: 1000px;  
   }  
-	
+  
   .gallery-item {  
 	position: absolute;  
 	background-color: #ffffff;  
@@ -24,16 +24,16 @@
 	width: 300px;  
 	max-width: 100%;  
   }  
-	
+  
   .gallery-item:hover {  
 	transform: translateY(-20px) scale(1.05) rotateZ(0deg);  
 	z-index: 2;  
   }  
-	
+  
   .gallery-item img {  
 	width: 100%;  
   }  
-	
+  
   .overlay {  
 	position: absolute;  
 	top: 0;  
@@ -48,20 +48,22 @@
 	justify-content: center;  
 	align-items: center;  
   }  
-	
+  
   .gallery-item:hover .overlay {  
 	opacity: 1;  
   }  
+  
   .photo-container {  
 	display: flex;  
 	flex-wrap: wrap;  
   }  
-	
+  
   .gallery-item {  
 	position: relative;  
 	margin: 0 15px 30px;  
 	cursor: pointer;  
   }  
+  
   .modal-img {  
 	max-width: 100%;  
 	max-height: 80vh; /* Adjust the value as needed */  
