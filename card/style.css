@@ -7,19 +7,26 @@
   body {
     background-color: #fdbf00;
   }
+  /* Add a container for cards */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
   .card {
-    width: 640px;
-    height: 400px;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    width: 1280px;
+    height:800px;
+    position: relative;
     -webkit-perspective: 1200px;
     perspective: 1200px;
     transition: 1s;
+    margin: 0 20px; /* Adjust the spacing between cards */
   }
+  
+  /* Rest of your existing styles remain unchanged */
+  
   .card:hover {
     transform: rotate(-5deg);
   }
