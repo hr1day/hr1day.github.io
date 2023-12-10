@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
   }
   body {
-    background-color: #fdbf00;
+    background: linear-gradient(to bottom, #190e14, #0d0d4b 30%, #c76075 80%, #e9b64b 95%);
   }
   /* Add a container for cards */
   .card-container {
