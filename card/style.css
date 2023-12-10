@@ -8,23 +8,23 @@
     background-color: #fdbf00;
   }
   /* Add a container for cards */
-.card-container {
+  .card-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 1000; /* Set a fixed height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
   }
-  
+
   .card {
     width: 1280px;
-    height:800px;
+    height: 800px;
+    margin: 20px 0; /* Adjust the spacing between cards */
     position: relative;
     -webkit-perspective: 1200px;
     perspective: 1200px;
     transition: 1s;
-    margin: 0 20px; /* Adjust the spacing between cards */
   }
-  
   /* Rest of your existing styles remain unchanged */
   
   .card:hover {
