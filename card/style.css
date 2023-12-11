@@ -146,3 +146,44 @@
     font-size: 120px;
     line-height: 120px;
   }
+  @media only screen and (max-width: 768px) {
+    body {
+      background: linear-gradient(to bottom, #190e14, #0d0d4b 30%, #c76075 80%, #e9b64b 95%);
+    }
+  
+    .card-container {
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+      margin: 20px 0;
+      transform: none;
+    }
+  
+    .outside,
+    .inside {
+      width: 100%;
+      left: 0;
+    }
+  
+    .inside {
+      padding: 20px;
+      line-height: 1.6;
+    }
+  
+    .outside p {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  
+    .inside h1 {
+      font-size: 60px;
+      line-height: 60px;
+    }
+  
+    .cake {
+      bottom: 10px;
+    }
+  }
+  
